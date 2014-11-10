@@ -1,0 +1,6 @@
+- cache current_user do
+  - unless @courses.empty?
+    %h2 Your Enrolled Courses
+    = render @courses
+  - else
+    %p You haven't enrolled in any courses. Go #{link_to "take a look", courses_path} at what's on offer.

@@ -1,0 +1,52 @@
+.alert-notice {
+  background-color: #28b62c;
+  border-color: #24a528;
+  color: #ffffff;
+}
+
+.alert-alert {
+  background-color: #ff851b;
+  border-color: #ff7701;
+  color: #ffffff;
+}
+
+.badge.success {
+  background-color:#28b62c;
+}
+
+.nav li.github-signin {
+  a { padding-left:0px; }
+  span.support { display:none }
+}
+
+.pagination > .active > span {
+  color: #ffffff;
+  background-color: #158cba;
+  border-color: #127ba3;
+}
+
+.linkback {
+  margin-bottom:10px;
+}
+
+.feedback-link {
+  position:fixed;
+  bottom:0px;
+  right:3em;
+  background-color:white;
+  border:1px solid #ccc;
+  border-width:1px 1px 0px;
+  border-radius:4px 4px 0px 0px;
+
+  &:hover {
+    border-bottom-width:0px;
+  }
+}
+
+footer {
+  /*background:#1a1a1a; figure out sticky footer first */
+  margin-top:60px;
+  padding:40px 0px 20px;
+  border-top:1px solid #e5e5e5;
+  /* color:#999;*/
+}

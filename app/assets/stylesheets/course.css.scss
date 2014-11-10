@@ -1,0 +1,15 @@
+.list-group-item.course {
+  min-height:300px;
+
+  h3 { margin-top:10px; }
+
+  .register {
+    display:block;
+    width:10em;
+
+    position:absolute;
+    bottom:10px;
+    left:50%;
+    margin-left:-5em;
+  }
+}
